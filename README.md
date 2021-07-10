@@ -1,7 +1,7 @@
 # COVID-19-detection-
 This project aims to investigate the detection of COVID-19 on the CT scans using Keras, TensorFlow, and Deep Learning techniques. We compare four DCNN model that provides a good accuracy.
 
-The CT scan images are provided in the folder COVID19\_Data. To be easier for computations, we resize all data to 128x128. We select 80% of samples (positive and negative) for training and the remaining 20% for testing per category.
+The CT scan images are provided in [this link](https://csuohio-my.sharepoint.com/:u:/g/personal/2738398_vikes_csuohio_edu/ES2qUJCQRVZHu6eEdVdDbvEBP8QhDLyR1ovXi8XQ34Ifwg?e=ecUgG2). To be easier for computations, we resize all data to 128x128. We select 80% of samples (positive and negative) for training and the remaining 20% for testing per category.
 
 In this project, I considered four DCNN models VGG16, VGG19, ResNet50, Xception (the model’s structures are shown in figures below). To find the best DCNN model, I considered different initialization method such as “glorot\_uniform”, “he\_uniform”, and “random\_normal”. Also, the activation function is ReLU. As the results below show, although VGG16 takes more time for processing, it is the best DCNN for this project as its accuracy is 0.996%, and it has a good balance between answers for either negative or positive answers. Based on the provided dataset, the worse model for detecting the Covid-19 can be the ResNet model. As you can see in the table below, the specificity is 0.566% which means the accuracy for detecting the negative cases is only 0.566%. 
 
