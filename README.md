@@ -1,4 +1,4 @@
-# COVID-19-detection-
+# COVID-19-detection
 This project aims to investigate the detection of COVID-19 on the CT scans using Keras, TensorFlow, and Deep Learning techniques. We compare four DCNN model that provides a good accuracy.
 
 The CT scan images are provided in [this link](https://csuohio-my.sharepoint.com/:u:/g/personal/2738398_vikes_csuohio_edu/ES2qUJCQRVZHu6eEdVdDbvEBP8QhDLyR1ovXi8XQ34Ifwg?e=ecUgG2). To be easier for computations, we resize all data to 128x128. We select 80% of samples (positive and negative) for training and the remaining 20% for testing per category.
